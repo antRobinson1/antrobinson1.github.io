@@ -129,6 +129,22 @@
   .btn:hover, .btn:focus-visible { background: #6a7b63; }
   .email { display: block; margin-top: 0.9rem; font-size: 0.85rem; color: var(--muted); }
   .email a { color: var(--muted); }
+  .section-label {
+    font-weight: 400;
+    margin: 0 0 0.9rem;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    font-size: 0.72rem;
+    color: var(--sage);
+  }
+  .section-text {
+    margin: 0 auto;
+    max-width: 400px;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--muted);
+  }
+  .section-text + .section-text { margin-top: 0.8rem; }
   a { color: var(--sage); }
   @media (max-width: 420px) {
     .card { padding: 3rem 1.5rem 2.5rem; }
@@ -166,6 +182,21 @@
     <p class="rsvp-label">Kindly RSVP by email</p>
     <a class="btn" href="mailto:tanyagates1@aol.com?subject=Wedding%20RSVP">RSVP</a>
     <span class="email"><a href="mailto:tanyagates1@aol.com?subject=Wedding%20RSVP">tanyagates1@aol.com</a></span>
+
+    <div class="divider">&#10086;</div>
+
+    <section aria-labelledby="gifts-heading">
+      <h2 class="section-label" id="gifts-heading">Gifts</h2>
+      <p class="section-text">We are not looking for any gifts. However, we would be very grateful for help looking after our children while we take a short honeymoon.</p>
+      <p class="section-text">We would also appreciate a small donation to the church on the day.</p>
+    </section>
+
+    <div class="divider">&#10086;</div>
+
+    <section aria-labelledby="updates-heading">
+      <h2 class="section-label" id="updates-heading">Updates</h2>
+      <p class="section-text">We are still getting things sorted, but we will keep this page up to date with any changes and updates.</p>
+    </section>
   </main>
 </body>
 </html>
