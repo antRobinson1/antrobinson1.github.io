@@ -1,0 +1,4 @@
+first_name,last_name,email,phone,dob,us_ssn,uk_ni_number,iban
+Jane,Testperson,jane.testperson@example.com,+44 7700 900123,1980-01-15,078-05-1120,QQ123456C,GB82WEST12345698765432
+John,Sample,john.sample@example.com,+44 7700 900456,1975-07-04,219-09-9999,QQ654321A,DE89370400440532013000
+Alex,Example,alex.example@example.org,+1 202-555-0143,1990-11-30,123-45-6789,AB123456C,FR1420041010050500013M02606
