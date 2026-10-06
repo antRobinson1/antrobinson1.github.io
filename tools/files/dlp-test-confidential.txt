@@ -1,0 +1,12 @@
+CONFIDENTIAL - INTERNAL USE ONLY
+STRICTLY PRIVATE AND CONFIDENTIAL
+
+DLP TEST FILE - this document contains no real information.
+It exists to trigger classification / keyword based DLP policies.
+
+Project codename: BLUEBIRD (fictitious)
+Classification: Highly Confidential
+Do not distribute outside the organisation.
+
+Sample API key (fake):  AKIAIOSFODNN7EXAMPLE
+Sample secret (fake):   wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
