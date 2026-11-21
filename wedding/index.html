@@ -148,6 +148,28 @@
     color: var(--muted);
   }
   .section-text + .section-text { margin-top: 0.8rem; }
+  .order {
+    list-style: none;
+    margin: 0 auto 1.2rem;
+    padding: 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.15rem;
+    line-height: 1.9;
+    color: var(--ink);
+  }
+  .update {
+    margin: 1.4rem auto 0;
+    padding-top: 1.2rem;
+    max-width: 400px;
+    border-top: 1px solid var(--line);
+  }
+  .update-date {
+    margin: 0 0 0.3rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: var(--ink);
+  }
   a { color: var(--sage); }
   @media (max-width: 420px) {
     .card { padding: 3rem 1.5rem 2.5rem; }
@@ -188,10 +210,22 @@
 
     <div class="divider">&#10086;</div>
 
-    <section aria-labelledby="gifts-heading">
-      <h2 class="section-label" id="gifts-heading">Gifts</h2>
-      <p class="section-text">We are not looking for any gifts. However, we would be very grateful for help looking after our children while we take a honeymoon.</p>
-      <p class="section-text">We would also appreciate a small donation to the church on the day.</p>
+    <section aria-labelledby="order-heading">
+      <h2 class="section-label" id="order-heading">Order of Service</h2>
+      <ol class="order">
+        <li>Entrance of the bride</li>
+        <li>Welcome prayer</li>
+        <li>Hymn</li>
+        <li>The Preface &amp; declaration</li>
+        <li>Readings</li>
+        <li>Address</li>
+        <li>Hymn</li>
+        <li>Marriage &amp; signing of the register</li>
+        <li>Prayers</li>
+        <li>Blessing</li>
+        <li>Recessional</li>
+      </ol>
+      <p class="section-text">Finishing with coffee, tea, cakes and celebration.</p>
     </section>
 
     <div class="divider">&#10086;</div>
@@ -199,6 +233,10 @@
     <section aria-labelledby="updates-heading">
       <h2 class="section-label" id="updates-heading">Updates</h2>
       <p class="section-text">We are still getting things sorted, but we will keep this page up to date with any changes and updates.</p>
+      <div class="update">
+        <p class="update-date">21st November 2026</p>
+        <p class="section-text">Time and date added, and order of service added.</p>
+      </div>
     </section>
   </main>
 </body>
